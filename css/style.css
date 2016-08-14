@@ -439,13 +439,13 @@ label{
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
 	min-height:240px;
-	padding:10px 0 0 0;
+	padding:0 0 0 0;
 }
 .main-banner {
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
 	min-height:400px;
-	padding:10px 0 0 0;
+	padding:0 0 0 0;
 }
 .banner h1 {
 	color:#fff;
@@ -693,7 +693,7 @@ padding:0;
 	border-radius:50%;
     width:70px;                               /*³¬Á´½Ó±³¾°*/
     height:90px;
-    background-color:grey;                 /*¸Ä³É°×É«,³¬Á´½Ó±³¾°*/
+    background-color:#2DA7E0;                 /*¸Ä³É°×É«,³¬Á´½Ó±³¾°*/
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
