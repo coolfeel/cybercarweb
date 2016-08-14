@@ -276,6 +276,16 @@ background-size:cover;
 -ms-background-size: cover;
 -moz-background-size: cover;	
 }
+
+.screen_two{
+background: url(../images/2.jpg) no-repeat 0px 0px;
+background-size:cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover;
+-moz-background-size: cover;
+}
+
 .screen_three{
 background: url(../images/3.jpg) no-repeat 0px 0px;
 background-size:cover;
@@ -284,7 +294,7 @@ background-size:cover;
 -ms-background-size: cover;
 -moz-background-size: cover;
 }
-.screen_one,.screen_three{
+.screen_one,.screen_two,.screen_three{
 min-height:250px;	                                  <!--ÂÖ²¥´óÐ¡-->
 }
 .like-icons ul li{
@@ -429,13 +439,13 @@ label{
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
 	min-height:240px;
-	padding:45px 0 0 0;
+	padding:10px 0 0 0;
 }
 .main-banner {
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
 	min-height:400px;
-	padding:100px 0 0 0;
+	padding:10px 0 0 0;
 }
 .banner h1 {
 	color:#fff;
