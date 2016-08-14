@@ -147,7 +147,7 @@ a.callbacks_nav.callbacks1_nav.prev {
   padding:0;
   margin:0;
   font-size:0;
-  height:140px;
+  height:160px;
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -270,7 +270,7 @@ top: 9%;
 
                                      
 .screen_one{
-background: url(../images/1.jpg) no-repeat 0px 0px;
+background: url(../images/m1.png) no-repeat 0px 0px;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -439,7 +439,7 @@ label{
 .banner {
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
-	min-height:140px;
+	min-height:160px;
 	padding:0 0 0 0;
         width:100%;
 }
@@ -674,7 +674,7 @@ padding:0;
 .focus-layout{
 	height:90px;
 	width:70px;
-	background:#FBFBFB;   
+	background:#fffffb;   
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -724,7 +724,7 @@ padding:0;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
   width:50px;                                 /*调节字和图标*/
-  height:50px;
+  height:43px;
 }
 .focus-image i {
     font-size: 10px;
@@ -3786,7 +3786,7 @@ label {
 }
 @media (max-width: 1280px){
 	.main-banner {
-		min-height: 350px;
+		min-height: 160px;
 		padding: 90px 0 0 0;
 	}
 	.region-block {
@@ -3802,7 +3802,7 @@ label {
 		font-size: 16px;
 	}
 	.main-banner {
-		min-height: 140px;
+		min-height: 160px;
 		padding: 60px 0 0 0;
 	}
 	.focus-image i {
