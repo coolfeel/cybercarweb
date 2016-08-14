@@ -53,7 +53,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .callbacks_container {
   position: relative;
-  width:95%; 
+  width:100%; 
+ 
  
 }
 .callbacks {
@@ -146,7 +147,7 @@ a.callbacks_nav.callbacks1_nav.prev {
   padding:0;
   margin:0;
   font-size:0;
-  
+  height:140px;
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -415,7 +416,7 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;		
+	margin:0;	
 	font-weight:400;
 	font-family: 'Ubuntu Condensed', sans-serif;
     transition:0.5s all;
@@ -438,13 +439,14 @@ label{
 .banner {
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
-	min-height:240px;
+	min-height:140px;
 	padding:0 0 0 0;
+        width:100%;
 }
 .main-banner {
 	/*background:url('../images/main.png') no-repeat 0px 0px;*/
 	background-size:cover;
-	min-height:400px;
+	min-height:100px;
 	padding:0 0 0 0;
 }
 .banner h1 {
@@ -754,7 +756,7 @@ padding:0;
         width:60px;
         height:60px;
 }
-.focus-image i.fa-laptop {
+.focus-image i.fa-university {
 	background:#ff9e29;
         width:60px;
         height:60px;
@@ -764,7 +766,7 @@ padding:0;
         width:60px;
         height:60px;
 }
-.focus-image i.fa-remove {
+.focus-image i.fa-wrench {
 	background:#15c01c;
         width:60px;
         height:60px;
@@ -774,17 +776,17 @@ padding:0;
         width:60px;
         height:60px;
 }
-.focus-image i.fa-paw {
+.focus-image i.fa-warning {
 	background:#1963ce;
         width:60px;
         height:60px;
 }
-.focus-image i.fa-map-marker {
+.focus-image i.fa-volume-up {
 	background:#c119ce;
         width:60px;
         height:60px;
 }
-.focus-image i.fa-android {
+.focus-image i.fa-umbrella {
 	background:#7fbad8;
         width:60px;
         height:60px;
@@ -3800,7 +3802,7 @@ label {
 		font-size: 16px;
 	}
 	.main-banner {
-		min-height: 280px;
+		min-height: 140px;
 		padding: 60px 0 0 0;
 	}
 	.focus-image i {
