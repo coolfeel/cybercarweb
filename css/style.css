@@ -683,7 +683,7 @@ padding:0;
 }
 .focus-layout{
     margin: 5px;
-    padding: 20px 0;
+    padding:0 0;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
